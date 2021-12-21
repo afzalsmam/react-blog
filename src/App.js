@@ -19,6 +19,10 @@ function App() {
         <Route exact path="/" >
           <Home />
         </Route>
+        <Route path="/react-blog" >
+          <Home />
+        </Route>
+
 
         <Route path="/write">
         {currentUser ? <Write />:<Register />}

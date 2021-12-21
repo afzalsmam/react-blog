@@ -15,7 +15,7 @@ export default function Navbar() {
               WRITE
             </Link>
           </li>
-          {currentUser && <li className="topListItem"><Link className= "link" to="/">LOGOUT</Link></li>}
+          <li className="topListItem"><Link className= "link" to="/login">LOGOUT</Link></li>
           </ul>  
         </div>
 
